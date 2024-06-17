@@ -1,6 +1,6 @@
 # Project JARVIS: AI Assistant
 
-## Disclaimer - This Information is AI Generated. This are not an actual Discription
+## Disclaimer - This Information is AI Generated. This are not an actual Discription. Information will be updated veryy soon.
 
 ## Overview
 
