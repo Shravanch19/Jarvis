@@ -1,0 +1,71 @@
+.loader {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.myCircle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.mainCircle {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+
+.circle {
+    background-color: transparent;
+    opacity: .9;
+    height: 200px;
+    width: 200px;
+    margin-top: 0 auto;
+    box-shadow: 0 0 75px #2187e7;
+    border-radius: 300px;
+    animation: spinPlus 2s infinite ease-in-out;
+}
+
+.circle1 {
+    background-color: transparent;
+    border: 5px solid rgba(0, 183, 229, 0.9);
+    margin: 0 auto;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    height: 150px;
+    width: 150px;
+    border-radius: 250px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    box-shadow: 0px 0px 75px #2187e7;
+    animation: spinPlusOff 5s infinite ease-in-out;
+}
+
+.circle1 img {
+    width: 100%;
+    object-fit: contain;
+}
+
+@keyframes spinPlus {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.11);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes spinPlusOff {
+    0%, 100% {
+        transform: rotate(0deg) scale(1.1);
+    }
+    50% {
+        transform: rotate(360deg) scale(1);
+    }
+}
